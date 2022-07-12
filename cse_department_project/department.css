@@ -1,0 +1,25 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.Body {
+    background-color: rgba(185, 45, 113, 0.466);
+}
+
+th {
+    color: #000000;
+    font-weight: bold;
+
+}
+
+td {
+    color: hsl(0, 0%, 0%);
+    font-weight: lighter;
+}
+
+.cap {
+    text-align: center;
+    background-color: rgb(138, 85, 138)
+}

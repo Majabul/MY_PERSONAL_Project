@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+</head>
+
+<body style="background-color: rgba(151, 102, 126, 0.466);">
+
+    <div style="text-align: center ;">
+        <form action="#">
+
+            <h1 style="text-align: center;">
+                <h1>Sign Up</h1>
+            </h1>
+            <hr>
+            <br>
+
+            <label for="username">
+                <h3>Name:</h3>
+            </label>
+            <input type="text" id="username" name="username" placeholder="Username">
+            <br> <br><br>
+
+            <label for="email">
+                <h3>Email:</h3>
+            </label>
+            <input type="email" id="mail" name="email" placeholder="example@gmail.com" required>
+            <br> <br><br>
+
+            <label for="password">
+                <h3>Password:</h3>
+            </label>
+            <input type="text" id="pass" name="password" placeholder="*********************************" required>
+            <br> <br><br>
+
+            <label for="phone">
+                <h3>Phone:</h3>
+            </label>
+
+            <select name="code" id="phn">
+                <option value="+880">+880</option>
+                <option value="+990">+990</option>
+                <option value="+110">+110</option>
+
+            </select>
+            <input type="phone" id="phn" name="phone" placeholder="1234567891" required>
+            <br> <br><br>
+
+
+            <label for="countryname">
+                <h3>Country:</h3>
+            </label>
+            <input list="countryname">
+            <datalist id="countryname">
+                <option value="America"></option>
+                <option value="Bangladesh"></option>
+                <option value="Canada"></option>
+                <option value="India"></option>
+                <option value="Irak"></option>
+            </datalist>
+            <br> <br><br>
+
+            <h3>Gender:</h3>
+            <input type="radio" id="gen1" name="gender">
+            <label for="gen1">Male </label>
+            <input type="radio" id="gen2" name="gender">
+            <label for="gen1"> Female </label>
+            <br> <br><br>
+
+
+            <label for="date">
+                <h3> Date of Birth:</h3>
+            </label>
+            <input type="date" id="date" name="dob">
+            <br><br><br>
+
+
+            <label for="time">
+                <h3>Time:</h3>
+            </label>
+            <input type="time" id="time" name="tm">
+            <br> <br><br>
+
+
+            <label for="colors">
+                <h3>Color:</h3>
+            </label>
+            <input type="color" id="color" name="col">
+            <br><br><br>
+
+
+            <label for="file">
+                <h3>Choose Photo:</h3>
+            </label>
+            <input type="file" id="file" name="fl">
+            <br><br><br>
+
+            <input type="submit" value="Send">
+            <input type="reset" value="Reset">
+
+
+        </form>
+    </div>
+
+
+</body>
+
+</html>
